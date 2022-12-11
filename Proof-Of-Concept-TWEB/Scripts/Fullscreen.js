@@ -44,45 +44,6 @@ function startup() {
         togglePIP(video3); // call the togglePIP function with the corresponding video tag passed in
     }); // these eventlisteners check if the PIP buttons have been clicked on
 
-    
-
-    // On pressing ENTER call toggleFullScreen method
-    // document.addEventListener("keypress", function (e) {
-        // if (e.key === 'f') {
-            // toggleFullScreen(video1);
-        // }
-        // else if (e.key === 'Enter') {
-            // toggleFullScreen(video2);
-        // }
-        // else if (e.key === 'e') {
-            // toggleFullScreen(video3);
-        // }
-    // }, false);
-
-
-    //document.addEventListener("click", async () => {
-        //if (toggleFull1) {
-            //toggleFullScreen(video1);
-        //}
-        //else if (toggleFull2) {
-            //toggleFullScreen(video2);
-        //}
-        //else if (toggleFull3) {
-            //toggleFullScreen(video3);
-        //}
-    //});
-
-    //document.addEventListener("click", async () => {
-        //if (togglePicture1) {
-            //togglePIP(video1);
-        //}
-        //else if (togglePicture2) {
-            //togglePIP(video2);
-        //}
-        //else if (togglePicture3) {
-            //togglePIP(video3);
-        //}
-    //});
 
 
 

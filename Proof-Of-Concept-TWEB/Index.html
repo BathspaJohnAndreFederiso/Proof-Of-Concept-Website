@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
 <body>
-
+    <!--This is the blue navigation bar at the top-->
     <section class="navbarparent">
         <section class="navbarchild name">
             <h1>A.O. Ortega</h1>
@@ -26,7 +26,7 @@
         </section>
     </section>
 
-
+    <!-- these are the contents for the rest of the page, includes the videos-->
     <div id="contents">
         <div id="name">
           <h2>Albert Owen Ortega</h2>
@@ -34,18 +34,23 @@
           <h1>Storyboard and Concept Artist</h1>
         </div>
 
+        <!-- there is one big video (inside the "one" section) and two smaller ones (inside the "two" section)-->
         <section id="one">
             <div>
+
+                <!--videos used are currently placeholders, set to autoplay, loop and without controls -->
                 <video src="Content/random crits.mp4" id="video1" class="vid" autoplay loop muted>
                 </video>
 
-                <button id="toggleFull1" class="button1"> 
+                <button id="toggleFull1" class="button1">
+                    <!--button with a play arrow icon, toggles the fullscreen API-->
                     <span class="material-symbols-outlined">
                         play_arrow
                     </span>
                 </button>
 
                 <button id="togglePip1" class="button1">
+                    <!--button with a PIP icon, toggles the PIP api-->
                     <span class="material-symbols-outlined">
                         picture_in_picture_alt
                     </span>
@@ -85,7 +90,6 @@
                     </span>
                 </button>
 
-
             </div>
         </section>
 
@@ -94,11 +98,6 @@
 
 
 
-    <!--<div id="credits">
-        <a href="https://www.teamfortress.com/">Game by Valve Corporation</a>;
-        <a href="https://store.steampowered.com/app/440/Team_Fortress_2/">Steam Page Link</a>
-    </div>
-    -->
 
 </body>
 </html>

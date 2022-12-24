@@ -2,7 +2,7 @@
     font-family: bebasN;
     src: url('../Content/BebasNeue-Regular.ttf') format('truetype');
 }
-video::-webkit-media-controls { 
+video::-webkit-media-controls {  /*stops video controls from displaying*/
     display: none !important;
 } 
 /*Disabled video controls*/
@@ -14,7 +14,7 @@ video::-webkit-media-controls {
 #contents { /*formats for the contents id, which manages the container of the videos and content*/
     padding-top: 2px;
     margin: 2rem auto;
-    max-width: 50rem;
+    max-width: 70rem;
     align-content: center;
     font-family: bebasN;
 }

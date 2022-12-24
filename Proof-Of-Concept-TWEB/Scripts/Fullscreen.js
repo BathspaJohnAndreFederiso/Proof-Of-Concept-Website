@@ -28,7 +28,7 @@ function startup() {
     toggleFull3.addEventListener("click", async () => {
         toggleFullScreen(video3);
     }); // these check for if the fullscreen button has been clicked on. Once clicked, it calls the toggleFullScreen function with the corresponding 
-    //video tag enabled
+    //video tag 
 
 
     togglePicture1.addEventListener("click", async () => {
@@ -49,13 +49,12 @@ function startup() {
 
 }
 function toggleFullScreen(video) {
-    if (!document.fullscreenElement) {
-        // If the document is not in full screen mode
-        // make the video full screen
+    if (!document.fullscreenElement) { // check if the document is not in fullscreen
+        // request fullscreen if the document is not in fullscreen
         video.requestFullscreen();
         document.exitPictureInPicture(); // exits any PIP running
     } else {
-        // Otherwise exit the full screen
+        // otherwise, request to exit fullscreen
         
             document.exitFullscreen();
         
